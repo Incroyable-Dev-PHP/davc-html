@@ -1,14 +1,18 @@
-nav {
+nav, h1, header {
     text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
 }
 
 nav ul li a {
     text-decoration: none;
     padding-left: 10px;
-}
-
-nav ul li {
-    display: inline;
 }
 
 footer {
@@ -19,14 +23,6 @@ footer {
 body {
     position: relative;
     padding-bottom: 5rem;
-}
-
-h1 {
-    text-align: center;
-}
-
-header {
-    text-align: center;
 }
 
 header strong {
